@@ -1,0 +1,43 @@
+
+
+**************************DEADLINE VAN DEZE OPDRACHTEN ZIJN TEGEN VRIJDAG 11 MEI OM 16 UUR
+
+TO DO
+=====================
+
+IEDER WERKT AAN 2 ZAKEN VAN DE VIER HIERONDER
+
+inleidingspagina: inleidende tekst maken en in in html coderen
+		  section maken met "interactieve tools" grid vorming met linken naar tools en animaties
+		  footer: linken tm en onepager (leuk; niet te droog;)
+	          403/404 ERROPAGINA
+		  
+---------------------------------------------------------------------------------------------------------------
+
+IEDER PERSOON WERKT HIERAAN 
+
+		  ****DESIGN VAN LOGO (elke persoon maakt een design en worden daarna samen bekeken)
+	          ****DESIGN VOOOR ZOWEL MOBIEL ALS GROOT SCHERM 3 breekpunten (elk een design maken)
+		  	{ font stack, kleuren, interlinie, (fotos) etc ...}
+	          *****DESIGN VOOR REGISTRATIE FORMULIER (elk een design maken)
+		  	{ font stack, kleuren, interlinie, etc ...}	
+
+		   [[[[[[[[[Als er nog iedeen laat het dan me weten ;D ]]]]]]]]]]]]
+
+*************************DEADLINE VAN DEZE OPDRACHTEN ZIJN TEGEN WOENSDAG 16 MEI OM 23 UUR
+
+
+----------- Afmaken van indivuduele pagina's (tekst, design(design van inleiding pagina), responsief, css3 annimations, javascript, etc..)
+------------ uploaden naar github 
+------------- aanmaken van verslag voor project (best afgeven op donderdag 17 mei)
+-------------- wijzigigen aan onepager site (zal ik wel in orde brengen)
+
+
+******************************* DONDERDAG 17 MEI IS VOLLEDIG TEST DAG*********************
+
+HIER WORDT ALLES GETEST; OP WEBRUIMTES GEZET; GEZIP EN UPGELOAD; 
+
+		  
+************************ VRIJDAG 18 MEI (OPTIONEEL) ***********************************************
+Als er gewenst wordt om samen te zitten voor vragen in verband met functionaliteiten die op het examen 
+worden ondervraagt kan dit op deze dag worden gedaan 
