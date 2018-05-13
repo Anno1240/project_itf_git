@@ -32,25 +32,28 @@
     </head>
 <body class= "bg-blok1">
 
-<!-- Navigation -->
-   <!-- Navigatiebalk -->
-   <nav>
-   <div class="container">
-       <nav>
-           <div class="btn-group">
-               <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                   <span class="glyphicon glyphicon-option-vertical" aria-hidden="true"></span>
-               </button>
-               <div class="dropdown-menu">
-                   <a class="dropdown-item" href="index.html">Over Battle of Wisdom</a>
-                   <a class="dropdown-item" href="www.youtube.be">Beschikbare artikels</a>
-                   <a class="dropdown-item" href="www.pornhub.com">Informatie over webmasters</a>
-                   <div class="dropdown-divider"></div>
-                   <a class="dropdown-item" href="www.facebook.com">Maak een account aan!</a>
-               </div>
-           </div>
-       </nav>
-   </div>
+<!-- Responsieve navigatiebalk 3 breekpunten-->
+<nav class="navbar navbar-default navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Battle of Wisdom</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto bg-light">
+            <li class="nav-item">
+                <a class="nav-link" href="#titel">Over Battle of Wisdom</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#artikel">Artikels</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#login">Registreer</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#tools">Interessante tools</a>
+            </li>
+        </ul>
+    </div>
 </nav>
 
 
@@ -66,17 +69,21 @@ if(empty($_POST['name']))
 
 { echo '<p class="Error"> Vul uw gebruikersnaam correct in . </p>'; }
 
+if(empty($_POST['wachtwoord']))
+{echo '<p class="Error"> Vul een wachtwoord in . </p>'; }
+
 if(!filter_var($_POST['email'],FILTER_VALIDATE_EMAIL) || empty($_POST['email']))
    {
 	echo '<p class="Error"> Vul uw email correct in . </p>';
 	return false;
    }
 
-   if(!empty($_POST['name']) && (!empty($_POST['name']))) {
+   if(!empty($_POST['name']) && (!empty($_POST['email'])) && (!empty($_POST['wachtwoord']))) {
    echo '<p>Uw registratie is succevol. Welkom Wisdom Warrior.</p>';
    	echo '<p> De ingevulde informatie is:</p>';
     echo '<ul>';
     echo '<li> Naam: '. $_POST['name'] . '</li>';
+    echo '<li> Naam: '. $_POST['wachtwoord'] . '</li>';
     echo '<li> Email: ' . $_POST['email'] . '</li>';
 
     if(isset($_POST['interesse1'])) {
