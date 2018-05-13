@@ -6,21 +6,21 @@ $theme-colors: (
 );
 
 $mywhite: #FDFFFC;
-$mygreen: #AEFCA9;
+$mygreen: #128e0b;
 $myblack: #1E1D1E;
 $myorange: #D17941;
-$mygray: #7C7C7C;
+$mygray: #383636;
+$mymagenta: #b524b0;
+$mygreennav: #AEFCA9;
 
 .navbar {
   margin: 0px !important;
   padding: 0px !important;
 }
 
-.navbar-default {
-  border-bottom: 1px solid blue !important;
-  }
 
-#titel {font-variant: small-caps;}
+
+#titel {font-variant: small-caps; font-family: "Palatino Linotype",sans-serif !important;}
 
 
 .koffie {font-style: italic;}
@@ -36,22 +36,83 @@ $mygray: #7C7C7C;
 .bg-mygreen {background-color: $mygreen !important;}
 .bg-myorange {background-color: $myorange !important;}
 .bg-mygray {background-color: $mygray !important;}
+.bg-mymagenta {background-color: $mymagenta !important;}
+.bg-mygreennav {background-color: $mygreennav !important;}
 
 .txt-myblack {color:$myblack !important;}
 .txt-mywhite {color:$mywhite !important;}
 .txt-mygreen {color:$mygreen !important;}
 .txt-myorange {color:$myorange !important;}
 .txt-mygray {color:$mygray !important;}
+.txt-mygreennav {color: $mygreennav !important;}
+.txt-mymagenta {color: $mymagenta !important;}
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: $mywhite !important;
   font-weight: bold !important;
 
 }
-.nav-item {margin:0px !important;}
 
 
-// Link to BS4
-@import "../node_modules/bootstrap/scss/bootstrap";
+.fa {
+  padding: 20px !important;;
+  font-size: 40px !important;
+  width: 20px !important;;
+  text-align: center !important;;
+  text-decoration: none !important;
+
+}
+
+
+
+.tmlink {
+  &:hover {
+    color:$myorange;
+  }
+}
+
+.fa {
+  &:hover {
+    color:$myorange !important;
+  }
+}
+
+  #footer {margin-top:55px;padding-bottom: 30px !important;text-align:center;}
+  .nav-item {margin:0px !important;
+    }
+#succes {margin-top:20px;}
+  .buttonhover1{
+
+    &:hover{
+      background-color: white !important;
+      color:$myblack !important;
+      border: 2px solid $myorange ! important;
+      border-radius: 5px !important;}}
+
+  .buttonhover2{
+
+    &:hover{
+      background-color: white !important;
+      color:$myblack !important;
+      border: 2px solid $mygreennav ! important;
+      border-radius: 5px !important;}}
+
+  .buttonhover3{
+
+    &:hover{
+      background-color: white !important;
+      color:$myblack !important;
+      border: 2px solid $mymagenta ! important;
+      border-radius: 5px !important;}}
+
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size:18px !important;
+  }
+
+
+  // Link to BS4
+  @import "../node_modules/bootstrap/scss/bootstrap";
+
 
 // Custom code/partials
