@@ -64,7 +64,6 @@ $mygreennav: #AEFCA9;
 }
 
 
-
 .tmlink {
   &:hover {
     color:$myorange;
@@ -111,8 +110,9 @@ $mygreennav: #AEFCA9;
   }
 
 
+
   // Link to BS4
-  @import "../node_modules/bootstrap/scss/bootstrap";
+  @import "../../node_modules/bootstrap/scss/bootstrap";
 
 
 // Custom code/partials

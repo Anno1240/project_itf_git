@@ -8,7 +8,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
-        <link rel="stylesheet" href="public_html/css/style.css">
+        <link rel="stylesheet" href="/css/style.css">
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
 
@@ -28,7 +28,7 @@
 <!-- Responsieve navigatiebalk 3 breekpunten-->
 <nav class="navbar navbar-default navbar-expand-lg navbar-dark bg-myblack">
     <div class="container bg-myblack txt-mygreennav">
-        <a class="navbar-brand txt-mygreennav" href="public_html/index.html#">Battle of Wisdom</a>
+        <a class="navbar-brand txt-mygreennav" href="/index.html#">Battle of Wisdom</a>
         <button class="navbar-toggler txt-mygreennav bg-myblack" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -37,16 +37,16 @@
         <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto bg-light float-right bg-myblack">
                 <li class="nav-item bg-myblack">
-                    <a class="nav-link txt-mygreennav" href="public_html/index.html#titel">Over Battle of Wisdom</a>
+                    <a class="nav-link txt-mygreennav" href="/index.html#titel">Over Battle of Wisdom</a>
                 </li>
                 <li class="nav-item bg-myblack txt-mygreennav">
-                    <a class="nav-link txt-mygreennav" href="public_html/index.html#artikel">Artikels</a>
+                    <a class="nav-link txt-mygreennav" href="index.html#artikel">Artikels</a>
                 </li>
                 <li class="nav-item bg-myblack txt-mygreennav">
-                    <a class="nav-link txt-mygreennav" href="public_html/index.html#tools">Interessante tools</a>
+                    <a class="nav-link txt-mygreennav" href="/index.html#tools">Interessante tools</a>
                 </li>
                 <li class="nav-item bg-myblack txt-mygreennav">
-                    <a class="nav-link txt-mygreennav" href="public_html/index.html#login">Registreer</a>
+                    <a class="nav-link txt-mygreennav" href="/index.html#login">Registreer</a>
                 </li>
             </ul>
 
