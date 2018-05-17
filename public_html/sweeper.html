@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Bootstrap CSS + meta viewport-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!--icon libary-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Real favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--Titel-->
+    <title>Het ijs borstelen | Battle of Wisdom</title>
+</head>
+<body>
+
+<!-- Responsieve navigatiebalk 3 breekpunten-->
+<nav class="navbar navbar-default navbar-expand-lg navbar-dark bg-myblack">
+    <div class="container bg-myblack txt-mygreennav">
+        <a class="navbar-brand txt-mygreennav" href="index.html">Battle of Wisdom</a>
+        <button class="navbar-toggler txt-mygreennav bg-myblack" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto bg-light float-right bg-myblack">
+                <li class="nav-item bg-myblack">
+                    <a class="nav-link txt-mygreennav" href="index.html#titel">Over Battle of Wisdom</a>
+                </li>
+                <li class="nav-item bg-myblack txt-mygreennav">
+                    <a class="nav-link txt-mygreennav" href="index.html#artikel">Artikels</a>
+                </li>
+                <li class="nav-item bg-myblack txt-mygreennav">
+                    <a class="nav-link txt-mygreennav" href="index.html#tools">Interessante tools</a>
+                </li>
+                <li class="nav-item bg-myblack txt-mygreennav">
+                    <a class="nav-link txt-mygreennav" href="index.html#login">Registreer</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+</nav>
+
+<section>
+    <div class="container">
+
+        <div class="row ">
+            <div class="col-lg-8 col-sm-12 col-md-12">
+                <h2>Wat zijn Sweepers?</h2>
+                <p>Bij het gooien van een curling ball zie je vaak mensen met een borstel die hevig juist voor de curling stone vegen.  </p>
+                <p>Dit is een zeer belangrijk gedeelte van de sport.<br/>
+                    IJs is niet volledig glad op een microscopisch niveau en door het vegen wordt er een meer uniform en glad ondergrond gecreëerd.
+                </p>
+                <p>Door een gladder ondergrond zal de kracht en de smelten meer homogeen verlopen dan een ruw ondergrond.</p>
+                <p>We zien ook dat bij een ruwere ijs de curling stone meer gaat krullen. Dit zorgt voor meer onnauwkeurigheid voor de uiteindelijke positie. </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8">
+                <h2>Ondergrond van een curlingbaan</h2>
+                <p>De ondergrond van een curling baan is helemaal niet te vergelijken met een schaatsbaan.  </p>
+                <p>Het bestaat natuurlijk alle twee uit ijs maar bij curling is wrijving een slechte factor. </p>
+                <p>Dit wordt ook tegengewerkt door geïoniseerde demi-water te sproeien over het oppervlak van de ijs.</p>
+                <p>Door de bevriezing van de geioneerse water druppels glijdt de curling stone beter over het ijs.</p>
+                <p>CCurling, wat voor de meeste mensen zeer alledaags lijkt, is toch vrijwel complex als je zaken die de gedrag van een curling stone bepalen gaat besturen. </p>
+                <p>Alhoewel curling in een beperkt aantal landen voorkomt brengt dit artikel je niet alleen iets bij over curling, maar ook over beweging en wrijving. </p>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-8">
+                <h2>Bereken de kinetische energie van de curling ball</h2>
+                <p>Met deze tool kan je bepalen hoeveel kinetische energie de curling ball bezit.</p>
+
+                <form>
+                    <div class="calculation">
+                    <label for="snelheid">Snelheid in m/s</label>
+                        <input id="snelheid" type="number" name="velocity"  />
+
+                   <label for ="gewicht">Gewicht</label>
+                    <select name="weight" id="gewicht">
+                        <option value="17" name="17.24">17.24 Kilogram</option>
+                        <option value="18" name="18.69">18.69 Kilogram</option>
+                        <option value="19" name="19.96">19.96 Kilogram</option>
+                    </select>
+                    </div>
+                </form>
+                <!--<p class="result"></p>-->
+                <button type="button" class="bereken">Bereken</button>
+                <button type="button" class="reset">Reset</button>
+                <ul id="lijst">
+                    <li>Uw berekende waardes:
+                    <ol>
+
+                    </ol>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+</section>
+
+<footer id="footer" class="txt-mywhite bg-mygray">
+
+<div class="container">
+
+
+    <div class="row">
+        <div class="col-lg-4 col-md-6">
+            <h3>Contact </h3>
+            <p>Kleinhoefstraat 6, 2440 Geel</p>
+            <p><a href="https://thomasmore.be" class="tmlink" title="Ga naar Thomas More Kempen">Thomas More Kempen</a></p>
+
+            <p class="mb-5">
+            </p>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <h3>Volg ons op sociale media</h3>
+            <a href="https://www.facebook.com" class="fa fa-facebook fb mb-5"></a>
+            <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+            <a href="https://www.youtube.com" class="fa fa-youtube"></a>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <h3>One Pager site | Hashbreakers</h3>
+            <p>Hashbreakers is een onepager website waar u meer kunt leren over de webmasters.</p>
+            <p><a href="/Hashbreakers/index.html" class="tmlink">Hashbreakers &trade;</a></p>
+        </div>
+    </div>
+</div>
+
+
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+
+    $(document).ready(function() {
+        $(".bereken").click(function() {
+
+            var snelheid = $('input[name="velocity"]').val();
+            var gewicht = $('#gewicht').find(":selected").text();
+            var ondergrond = $('#ondergrond').find(":selected").text();
+            var gewichtnum = parseFloat(gewicht);
+            var total = 0.5*gewichtnum*(snelheid*snelheid);
+            $("ol").append("<li>" + total.toFixed(2) + " Joule</li>");
+            //$('.result').html(total);
+        });
+    });
+
+    $(document).ready(function() {
+        $(".reset").click(function() {
+
+            $("ol").empty();
+        });
+    });
+
+
+    // var value = $("#mytextBox").val()
+
+
+   // var value = 5 + 5;
+
+    //document.getElementById("demo").innerHTML = value;
+</script>
+
+
+</body>
+</html>

@@ -2,7 +2,6 @@
 $theme-colors: (
         'primary': #009CAB,
         'danger': #F04C25,
-
 );
 
 $mywhite: #FDFFFC;
@@ -18,34 +17,220 @@ $mygreennav: #AEFCA9;
   padding: 0px !important;
 }
 
+#titel {
+  font-variant: small-caps;
+  font-family: "Palatino Linotype", sans-serif !important;
+}
 
+/*animatie */
 
-#titel {font-variant: small-caps; font-family: "Palatino Linotype",sans-serif !important;}
+.curlingbaan {
+  position: relative;width:100%;
+}
 
+#achtergrond {width:100%}
 
-.koffie {font-style: italic;}
+#voorgrond {
+  position: absolute;
+  bottom: 50px;
+  left: 10px;
+  animation-name: draaiendbal;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
 
-.zwaartekracht {font-style:italic;}
+@keyframes draaiendbal {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  from {
+    bottom: 50px;
+    left: 1px;
+  }
+  to {
+    bottom: 50px;
+    left: 50px;
+  }
+  to {
+    bottom: 40px;
+    left: 150px;
+  }
+  to {
+    bottom: 30px;
+    left: 250px;
+  }
+  to {
+    bottom: 20px;
+    left: 350px;
+  }
+  to {
+    bottom: 10px;
+    left: 450px;
+  }
 
-#login {margin:20px;}
+}
 
-.keuze {margin:10px;}
+.btn {padding:25px;}
 
-.bg-myblack {background-color: $myblack !important;}
-.bg-mywhite {background-color: $mywhite !important;}
-.bg-mygreen {background-color: $mygreen !important;}
-.bg-myorange {background-color: $myorange !important;}
-.bg-mygray {background-color: $mygray !important;}
-.bg-mymagenta {background-color: $mymagenta !important;}
-.bg-mygreennav {background-color: $mygreennav !important;}
+.button-box {
+  text-align: center;
+  display: inline-block;
+}
 
-.txt-myblack {color:$myblack !important;}
-.txt-mywhite {color:$mywhite !important;}
-.txt-mygreen {color:$mygreen !important;}
-.txt-myorange {color:$myorange !important;}
-.txt-mygray {color:$mygray !important;}
-.txt-mygreennav {color: $mygreennav !important;}
-.txt-mymagenta {color: $mymagenta !important;}
+#volgende {
+  background-color: blue;
+  margin: 15px;
+  padding:25px;
+
+}
+
+#volgende {
+  &:hover {
+
+    animation-name: next;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-color:$mymagenta;
+    transition: background-color 5s ease;
+
+    /*@while 1 == 1
+    background-color:$mymagenta;
+    transition: background-color 5s ease;*/
+
+  }
+}
+@keyframes next {
+  from {
+    transform:rotate(0deg);
+  }
+  to {
+    transform:rotate(360deg);
+  }
+}
+#vorige {
+  background-color: blue;
+  margin: 15px;
+  padding:25px;
+
+}
+
+#vorige {
+  &:hover {
+    animation-name: prev;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-color:$mymagenta;
+    transition: background-color 5s ease;
+
+    /*@while 1 == 1
+    background-color:$mymagenta;
+    transition: background-color 5s ease;*/
+
+  }
+}
+
+@keyframes prev {
+  from {
+    transform:rotate(0deg);
+  }
+  to {
+    transform:rotate(-360deg);
+  }
+}
+
+.calculation input {display:block; margin-bottom: 10px;}
+
+.bewegen {
+  animation-name: motieball;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes motieball {
+  from {
+    bottom: 50px;
+    left: 10px;
+  }
+  to {
+    bottom: 60px;
+    left: 20px;
+  }
+}
+
+.koffie {
+  font-style: italic;
+}
+
+.zwaartekracht {
+  font-style: italic;
+}
+
+#login {
+  margin: 20px;
+}
+
+.keuze {
+  margin: 10px;
+}
+
+.bg-myblack {
+  background-color: $myblack !important;
+}
+
+.bg-mywhite {
+  background-color: $mywhite !important;
+}
+
+.bg-mygreen {
+  background-color: $mygreen !important;
+}
+
+.bg-myorange {
+  background-color: $myorange !important;
+}
+
+.bg-mygray {
+  background-color: $mygray !important;
+}
+
+.bg-mymagenta {
+  background-color: $mymagenta !important;
+}
+
+.bg-mygreennav {
+  background-color: $mygreennav !important;
+}
+
+.txt-myblack {
+  color: $myblack !important;
+}
+
+.txt-mywhite {
+  color: $mywhite !important;
+}
+
+.txt-mygreen {
+  color: $mygreen !important;
+}
+
+.txt-myorange {
+  color: $myorange !important;
+}
+
+.txt-mygray {
+  color: $mygray !important;
+}
+
+.txt-mygreennav {
+  color: $mygreennav !important;
+}
+
+.txt-mymagenta {
+  color: $mymagenta !important;
+}
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: $mywhite !important;
@@ -53,6 +238,15 @@ $mygreennav: #AEFCA9;
 
 }
 
+.trans {
+  width: 100%;
+  height: 50px;
+  transform: rotate(-7deg);
+}
+
+.trans {
+  margin: 100px !important;
+}
 
 .fa {
   padding: 20px !important;;
@@ -63,56 +257,68 @@ $mygreennav: #AEFCA9;
 
 }
 
-
 .tmlink {
   &:hover {
-    color:$myorange;
+    color: $myorange;
   }
 }
 
 .fa {
   &:hover {
-    color:$myorange !important;
+    color: $myorange !important;
   }
 }
 
-  #footer {margin-top:55px;padding-bottom: 30px !important;text-align:center;}
-  .nav-item {margin:0px !important;
-    }
-#succes {margin-top:20px;}
-  .buttonhover1{
+#footer {
+  margin-top: 55px;
+  padding-bottom: 30px !important;
+  text-align: center;
+}
 
-    &:hover{
-      background-color: white !important;
-      color:$myblack !important;
-      border: 2px solid $myorange ! important;
-      border-radius: 5px !important;}}
+.nav-item {
+  margin: 0px !important;
+}
 
-  .buttonhover2{
+#succes {
+  margin-top: 20px;
+}
 
-    &:hover{
-      background-color: white !important;
-      color:$myblack !important;
-      border: 2px solid $mygreennav ! important;
-      border-radius: 5px !important;}}
+.buttonhover1 {
 
-  .buttonhover3{
-
-    &:hover{
-      background-color: white !important;
-      color:$myblack !important;
-      border: 2px solid $mymagenta ! important;
-      border-radius: 5px !important;}}
-
-  body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    font-size:18px !important;
+  &:hover {
+    background-color: white !important;
+    color: $myblack !important;
+    border: 2px solid $myorange ! important;
+    border-radius: 5px !important;
   }
+}
 
+.buttonhover2 {
 
+  &:hover {
+    background-color: white !important;
+    color: $myblack !important;
+    border: 2px solid $mygreennav ! important;
+    border-radius: 5px !important;
+  }
+}
 
-  // Link to BS4
-  @import "../../node_modules/bootstrap/scss/bootstrap";
+.buttonhover3 {
 
+  &:hover {
+    background-color: white !important;
+    color: $myblack !important;
+    border: 2px solid $mymagenta ! important;
+    border-radius: 5px !important;
+  }
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 18px !important;
+}
+
+// Link to BS4
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 // Custom code/partials

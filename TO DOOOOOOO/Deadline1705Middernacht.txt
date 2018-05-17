@@ -1,0 +1,11 @@
+
+1) HTML TRAVERSERING
+2à onepager hashbreakers aanpassen
+3)403/403 foutpagina
+4)Extern font
+5)breekpunten classen
+6)mixin
+7)SCSS in verschillede bestanden stoppen
+8)mappenstructuur
+9)tekst aanpassen
+10) uploaden
