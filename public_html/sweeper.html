@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <!--Bootstrap CSS + meta viewport-->
     <meta charset="UTF-8">
+    <meta name="author" content="Farshad">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
     <link rel="stylesheet" href="/css/style.css">
@@ -37,7 +38,7 @@
         <div class="collapse navbar-collapse float-right transver" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto bg-light float-right bg-myblack">
                 <li class="nav-item bg-myblack">
-                    <a class="nav-link t1 txt-mygreennav" href="index.html#titel">Over Battle of Wisdom</a>
+                    <a class="nav-link t1 txt-mygreennav" href="index.html#over">Over Battle of Wisdom</a>
                 </li>
                 <li class="nav-item bg-myblack txt-mygreennav">
                     <a class="nav-link t2 txt-mygreennav" href="index.html#artikel">Artikels</a>
@@ -55,56 +56,70 @@
 
 </nav>
 
-<section>
+<section class="find">
     <div class="container">
 
         <div class="row ">
             <div class="col-lg-8 col-sm-12 col-md-12">
-                <h2>Wat zijn Sweepers?</h2>
-                <p>Bij het gooien van een curling ball zie je vaak mensen met een borstel die hevig juist voor de curling stone vegen.  </p>
+                <h2 class="size">Wat zijn Sweepers?</h2>
+                <hr>
+                <p>Bij het gooien van een curling ball zie je vaak mensen met een borstel die hevig juist voor de
+                    curling stone vegen. </p>
                 <p>Dit is een zeer belangrijk gedeelte van de sport.<br/>
-                    IJs is niet volledig glad op een microscopisch niveau en door het vegen wordt er een meer uniform en glad ondergrond gecreëerd.
+                    IJs is niet volledig glad op een microscopisch niveau en door het vegen wordt er een meer uniform en
+                    glad ondergrond gecreëerd.
                 </p>
-                <p>Door een gladder ondergrond zal de kracht en de smelten meer homogeen verlopen dan een ruw ondergrond.</p>
-                <p>We zien ook dat bij een ruwere ijs de curling stone meer gaat krullen. Dit zorgt voor meer onnauwkeurigheid voor de uiteindelijke positie. </p>
+                <p>Door een gladder ondergrond zal de kracht en de smelten meer homogeen verlopen dan een ruw
+                    ondergrond.</p>
+                <p>We zien ook dat bij een ruwere ijs de curling stone meer gaat krullen. Dit zorgt voor meer
+                    onnauwkeurigheid voor de uiteindelijke positie. </p>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-lg-8">
-                <h2>Ondergrond van een curlingbaan</h2>
-                <p>De ondergrond van een curling baan is helemaal niet te vergelijken met een schaatsbaan.  </p>
-                <p>Het bestaat natuurlijk alle twee uit ijs maar bij curling is wrijving een slechte factor. </p>
-                <p>Dit wordt ook tegengewerkt door geïoniseerde demi-water te sproeien over het oppervlak van de ijs.</p>
+            <div class="col-lg-8 col-sm-12 col-md-12">
+                <h2 class="size">Ondergrond van een curlingbaan</h2>
+                <hr>
+                <p>De ondergrond van een curling baan is helemaal niet te vergelijken met een schaatsbaan. </p>
+                <p>Het bestaat natuurlijk alle twee uit ijs maar bij curling is wrijving een groot boosdoener </p>
+                <p>Dit wordt ook tegengewerkt door geïoniseerde demi-water te sproeien over het oppervlak van de
+                    ijs.</p>
                 <p>Door de bevriezing van de geioneerse water druppels glijdt de curling stone beter over het ijs.</p>
-                <p>CCurling, wat voor de meeste mensen zeer alledaags lijkt, is toch vrijwel complex als je zaken die de gedrag van een curling stone bepalen gaat besturen. </p>
-                <p>Alhoewel curling in een beperkt aantal landen voorkomt brengt dit artikel je niet alleen iets bij over curling, maar ook over beweging en wrijving. </p>
-
+                <p>Curling, wat voor de meeste mensen zeer alledaags lijkt, is toch vrijwel complex als je zaken bestudeert die de
+                    gedrag van een curling stone bepalen. </p>
+                <p>Alhoewel curling in een beperkt aantal landen voorkomt brengt dit artikel je niet alleen iets bij
+                    over curling, maar ook over beweging en wrijving. </p>
             </div>
         </div>
-    </div>
+
+            <div class="row">
+                <div class="col-lg-8 col-sm-12 col-md-12">
+                    <p class="text-muted">Auteur: Farshad Nour</p>
+                </div></div>
+        </div>
+
 
 </section>
 
-<section>
+<section class="find">
     <div class="container">
         <div class="row">
-
-            <div class="col-lg-8">
-                <h2>Bereken de kinetische energie van de curling ball</h2>
+            <div class="col-lg-8 col-md-8 col-sm-6">
+                <h2 class="size">Bereken de kinetische energie van de curling ball</h2>
+                <hr>
                 <p>Met deze tool kan je bepalen hoeveel kinetische energie de curling ball bezit.</p>
 
                 <form>
-                    <div class="calculation">
-                    <label for="snelheid">Snelheid in m/s</label>
-                        <input id="snelheid" type="number" name="velocity"  />
+                    <div class="calculation" id="calculate">
+                        <label for="snelheid">Snelheid in m/s</label>
+                        <input id="snelheid" type="number" name="velocity"/>
 
-                   <label for ="gewicht">Gewicht</label>
-                    <select name="weight" id="gewicht">
-                        <option value="17" name="17.24">17.24 Kilogram</option>
-                        <option value="18" name="18.69">18.69 Kilogram</option>
-                        <option value="19" name="19.96">19.96 Kilogram</option>
-                    </select>
+                        <label for="gewicht">Gewicht</label>
+                        <select name="weight" id="gewicht">
+                            <option value="17.24" >17.24 Kilogram</option>
+                            <option value="18.69" >18.69 Kilogram</option>
+                            <option value="19.96">19.96 Kilogram</option>
+                        </select>
                     </div>
                 </form>
                 <!--<p class="result"></p>-->
@@ -112,11 +127,20 @@
                 <button type="button" class="reset">Reset</button>
                 <ul id="lijst">
                     <li>Uw berekende waardes:
-                    <ol>
-
-                    </ol>
+                        <ol>
+                        </ol>
                     </li>
                 </ul>
+                <div class="big">
+                    <h3>Verander de kleur van de lettertype (extraatje)</h3>
+                    <hr>
+                    <label for="biggertitle">Verander kleur van titels</label>
+                    <input type="text" id="biggertitle" name="biggertitle"/>
+                    <label for="biggertekst">Verander kleur van tekst</label>
+                    <input type="text" id="biggertekst" name="biggertxt"/>
+                    <buton type="button" class="grooteletter" id="wijzigbutton">Wijzigen</buton>
+                </div>
+
 
             </div>
 
@@ -125,121 +149,100 @@
 
 </section>
 
-<section>
-    <ul>
-        <li class="main">list 0</li>
-        <li class="main">list 1</li>
-        <li class="main">list 2</li>
-        <li class="main">list 3</li>
-        <li class="main">list 4</li>
-    </ul>
-
-</section>
-
 <footer id="footer" class="txt-mywhite bg-mygray">
 
-<div class="container">
+    <div class="container">
 
 
-    <div class="row">
-        <div class="col-lg-4 col-md-6">
-            <h3>Contact </h3>
-            <p>Kleinhoefstraat 6, 2440 Geel</p>
-            <p><a href="https://thomasmore.be" class="tmlink" title="Ga naar Thomas More Kempen">Thomas More Kempen</a></p>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <h3>Contact </h3>
+                <p>Kleinhoefstraat 6, 2440 Geel</p>
+                <p><a href="https://thomasmore.be" class="tmlink" title="Ga naar Thomas More Kempen">Thomas More
+                    Kempen</a></p>
+                <p class="mb-5">
+                </p>
+            </div>
 
-            <p class="mb-5">
-            </p>
-        </div>
+            <div class="col-lg-4 col-md-6">
+                <h3>Volg ons op sociale media</h3>
+                <a href="https://www.facebook.com" class="fa fa-facebook fb mb-5"></a>
+                <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+                <a href="https://www.youtube.com" class="fa fa-youtube"></a>
+            </div>
 
-        <div class="col-lg-4 col-md-6">
-            <h3>Volg ons op sociale media</h3>
-            <a href="https://www.facebook.com" class="fa fa-facebook fb mb-5"></a>
-            <a href="https://www.twitter.com" class="fa fa-twitter"></a>
-            <a href="https://www.youtube.com" class="fa fa-youtube"></a>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-            <h3>One Pager site | Hashbreakers</h3>
-            <p>Hashbreakers is een onepager website waar u meer kunt leren over de webmasters.</p>
-            <p><a href="/Hashbreakers/index.html" class="tmlink">Hashbreakers &trade;</a></p>
+            <div class="col-lg-4 col-md-6">
+                <h3>One Pager site | Hashbreakers</h3>
+                <p>Hashbreakers is een onepager website waar u meer kunt leren over de webmasters.</p>
+                <p><a href="/Hashbreakers/index.html" class="tmlink">Hashbreakers &trade;</a></p>
+            </div>
         </div>
     </div>
-</div>
-
 
 
 </footer>
+
+<!--
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>-->
+
+<!--custom scripts-->
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script>
 
     //berekenen van Ekin en afbeelden
-    $(document).ready(function() {
-        $(".bereken").click(function() {
-
+    $(document).ready(function () {
+        $(".bereken").click(function () {
             var snelheid = $('input[name="velocity"]').val();
             var gewicht = $('#gewicht').find(":selected").text();
-            var ondergrond = $('#ondergrond').find(":selected").text();
             var gewichtnum = parseFloat(gewicht);
-            var total = 0.5*gewichtnum*(snelheid*snelheid);
+            var total = 0.5 * gewichtnum * (snelheid * snelheid);
             $("ol").append("<li>" + total.toFixed(2) + " Joule</li>");
-            //$('.result').html(total);
+
         });
     });
 
     //resetten van lijst
-
-    $(document).ready(function() {
-        $(".reset").click(function() {
+    $(document).ready(function () {
+        $(".reset").click(function () {
 
             $("ol").empty();
         });
     });
 
-    //transversing
+
+    //lettertype veranderen
+
+    $(document).ready(function() {
+        $("#wijzigbutton").click(function(){
+
+            var amounttxt = $('input[name="biggertxt"]').val();
+            var amounttitle = $('input[name="biggertitle"]').val();
+            $(".find").find("h2").css("color",amounttitle);
+            $(".find").find("p").css("color",amounttxt);
+
+        });
+    });
+
     i=1;
     var y = "ul a.t"+i;
 
-  /*  setInterval(function()
-    {
-        $(y).each(function () {
-            $(this).addClass('likleur');
-            i++;
-            y = "ul a.t"+i;
-
-            if(i>4){
-                setInterval(function(){
-                $(y).each(function () {
-                    $(this).removeClass('likleur');
-                    i--;
-                    y= "ul a.t"+i;
-            });},1000)};
-        });
-    },1000);*/
-
+    //transversing zie bij style.scss uitleg over de kleur
     setInterval(function()
     {
         $(y).each(function () {
-            $(this).addClass('likleur');
+            $(this).addClass('likleur2');
             i++;
             y = "ul a.t"+i;
 
-            if(i>4){
-                    $(y).each(function () {
-                        $(this).removeClass('likleur');
-                        i--;
-                        y= "ul a.t"+i;
-                    });};
+
         });
     },1000);
-/*
-    setInterval(function()
-    {
-        $("ul a.nav-link").each(function () {
-            $(this).addClass('likleur');
 
-        });
-    },5000);*/
 
 
 

@@ -37,7 +37,7 @@
         <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto bg-light float-right bg-myblack">
                 <li class="nav-item bg-myblack">
-                    <a class="nav-link txt-mygreennav" href="/index.html#titel">Over Battle of Wisdom</a>
+                    <a class="nav-link txt-mygreennav" href="/index.html#over">Over Battle of Wisdom</a>
                 </li>
                 <li class="nav-item bg-myblack txt-mygreennav">
                     <a class="nav-link txt-mygreennav" href="index.html#artikel">Artikels</a>
@@ -71,6 +71,7 @@ if(empty($_POST['wachtwoord']))
 if(!filter_var($_POST['email'],FILTER_VALIDATE_EMAIL) || empty($_POST['email']))
    {
 	echo '<p class="Error"> Vul uw email correct in . </p>';
+	echo '<p>Gebruik de navigatiebalk om terug te gaan naar Battle of Wisdom</p>';
 	return false;
    }
 

@@ -1,0 +1,6 @@
+
+@mixin backandfront($back,$front) {
+
+  background-color: $back;
+  color:$front;
+}

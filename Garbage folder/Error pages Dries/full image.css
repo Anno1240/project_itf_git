@@ -1,0 +1,91 @@
+h1{
+    color: crimson;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    font-family: "Showcard Gothic";
+
+
+
+    margin-top: 100px;
+}
+h3,h4,p.text{
+    color: darkred;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    font-family: "Showcard Gothic";
+
+}
+img {
+    position: relative;
+    width: 100%;
+
+}
+p.text{
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+
+
+
+}
+html{
+    background: url("Autumn-Forest-Wallpaper-Full-HD.jpg") no-repeat center center;
+
+    min-height:100%;
+
+    background-size:cover;
+}
+body{
+
+    min-height:100%;
+}
+#btn{
+
+    height: 30px;
+    width: 120px;
+    color:white;
+    background-color:#350B0F;
+    font-family: monospace;
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+
+
+}
+
+/*.container {
+    position: relative;
+    width: 50%;
+}
+.container img {
+    width: 100%;
+    height: auto;
+}
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.container .btn:hover {
+    background-color: black;
+}
+

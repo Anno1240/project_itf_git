@@ -1,0 +1,124 @@
+
+// animatie steen op curlingbaan
+.curlingbaan {
+  position: relative;width:100%;
+}
+
+#achtergrond {width:100%}
+
+#voorgrond {
+  position: absolute;
+  bottom: 50px;
+  left: 10px;
+  animation-name: draaiendbal;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes draaiendbal {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  from {
+    bottom: 50px;
+    left: 1px;
+  }
+  to {
+    bottom: 50px;
+    left: 50px;
+  }
+  to {
+    bottom: 40px;
+    left: 150px;
+  }
+  to {
+    bottom: 30px;
+    left: 250px;
+  }
+  to {
+    bottom: 20px;
+    left: 350px;
+  }
+  to {
+    bottom: 10px;
+    left: 450px;
+  }
+
+}
+
+//transition op buttons op wetenschap.html
+
+#volgende {
+  background-color: blue;
+  margin: 15px;
+  padding:25px;
+
+}
+
+#volgende {
+  &:hover {
+
+    animation-name: next;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-color:$mymagenta;
+    transition: background-color 5s ease;
+
+  }
+}
+@keyframes next {
+  from {
+    transform:rotate(0deg);
+  }
+  to {
+    transform:rotate(360deg);
+  }
+}
+#vorige {
+  background-color: blue;
+  margin: 15px;
+  padding:25px;
+
+}
+
+#vorige {
+  &:hover {
+    animation-name: prev;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-color:$mymagenta;
+    transition: background-color 5s ease;
+
+
+  }
+}
+
+@keyframes prev {
+  from {
+    transform:rotate(0deg);
+  }
+  to {
+    transform:rotate(-360deg);
+  }
+}
+/*
+.bewegen {
+  animation-name: motieball;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes motieball {
+  from {
+    bottom: 50px;
+    left: 10px;
+  }
+  to {
+    bottom: 60px;
+    left: 20px;
+  }
+}*/
+
